@@ -1,12 +1,12 @@
 body {
     margin: 0;
-    background-color: ghostwhite;
+    background-color: #DCE3E3;
 }
 
 header {
     width: auto;
     height: 50px;
-    background-color: ghostwhite;
+    background-color: #DCE3E3;
 }
 
 header nav {
@@ -22,13 +22,55 @@ header nav a {
 
 header nav a:hover {
     text-decoration: overline;
-    text-decoration-color: lightsteelblue;
+    text-decoration-color: whitesmoke;
     font-weight:bolder;
 }
 
 #splash {
-    background-color: lightsteelblue;
+    background-color: whitesmoke;
     height: 55vw;
 }
 
 
+#container_splash{
+    padding: 0 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#flexbox_splash {
+    align-content: center;
+    flex-basis: 15vw;
+    height: 15vw;
+    background-color: #49565b;
+    cursor:pointer;
+    border-radius: 50%;
+}
+.flexbox_splash1:hover {
+    background-color: whitesmoke;
+    background-image: url(img/benefits_img_1.svg);
+    background-repeat: no-repeat;
+    transform: scale(1.1);
+}
+
+.flexbox_splash2:hover {
+    background-color: whitesmoke;
+    background-image: url(img/benefits_img_1.svg);
+    background-repeat: no-repeat;
+    transform: scale(1.1);
+}
+
+.flexbox_splash3:hover {
+    background-color: whitesmoke;
+    background-image: url(img/benefits_img_1.svg);
+    background-repeat: no-repeat;
+    transform: scale(1.1);
+}
+
+.flexbox_splash4:hover {
+    background-color: whitesmoke;
+    background-image: url(img/benefits_img_1.svg);
+    background-repeat: no-repeat;
+    transform: scale(1.1);
+}
