@@ -29,6 +29,8 @@ header nav a:hover {
     font-weight:bolder;
 }
 
+/* FORSIDE / AFLEVERINGSSITE */
+
 #splash {
     margin: 0;
     background-image: url(img/background_test.jpg);
@@ -115,7 +117,8 @@ h1 {
 #benefits p {
     padding: 0 175px;
     color: whitesmoke;
-    font-family: "Open Sans Condensed"
+    font-family: "Open Sans Condensed";
+    text-align: center;
 }
 
 #app_link {
@@ -168,13 +171,15 @@ h1 {
 #procesdokumentation a {
     font-family: "Open Sans Condensed";
     text-align: center;
-    color: steelblue;
     text-decoration: none;
+    font-weight: bolder;
+    color: black;
 }
 
 #procesdokumentation a:hover {
     color: darksalmon;
     text-decoration: none;
+
 }
 
 
@@ -186,3 +191,37 @@ h1 {
     text-align: center;
     font-family: "Open Sans Condensed";
 }
+
+
+/* DOKUMENTATIONSSITE */
+
+
+#gruppeinformation {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50vw;
+    background-color: white;
+}
+
+#container_gruppeinfo{
+    padding: 5vw 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#flexbox_gruppe {
+    align-content: center;
+    flex-basis: 15vw;
+    height: 15vw;
+    background-color: #49565b;
+    border-radius: 50%;
+}
+
+#flexbox_gruppe p {
+    color: black;
+    font-family: "Open Sans Condensed";
+    padding: 15vw 0 0 0;
+}
+
