@@ -1,12 +1,12 @@
 body {
     margin: 0;
-    background-color: #DCE3E3;
+    background-color: lightslategray;
 }
 
 header {
     width: auto;
     height: 50px;
-    background-color: #DCE3E3;
+    background-color: whitesmoke;
 }
 
 header nav {
@@ -27,13 +27,16 @@ header nav a:hover {
 }
 
 #splash {
+    background-image: url(img/baggrund_test.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
     background-color: whitesmoke;
     height: 55vw;
 }
 
 
 #container_splash{
-    padding: 0 50px;
+    padding: 35vw 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -47,6 +50,7 @@ header nav a:hover {
     cursor:pointer;
     border-radius: 50%;
 }
+
 .flexbox_splash1:hover {
     background-color: whitesmoke;
     background-image: url(img/benefits_img_1.svg);
@@ -56,21 +60,21 @@ header nav a:hover {
 
 .flexbox_splash2:hover {
     background-color: whitesmoke;
-    background-image: url(img/benefits_img_1.svg);
+    background-image: url(img/app_img.svg);
     background-repeat: no-repeat;
     transform: scale(1.1);
 }
 
 .flexbox_splash3:hover {
     background-color: whitesmoke;
-    background-image: url(img/benefits_img_1.svg);
+    background-image: url(img/pitch_img.svg);
     background-repeat: no-repeat;
     transform: scale(1.1);
 }
 
 .flexbox_splash4:hover {
     background-color: whitesmoke;
-    background-image: url(img/benefits_img_1.svg);
+    background-image: url(img/proces_img.svg);
     background-repeat: no-repeat;
     transform: scale(1.1);
 }
