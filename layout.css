@@ -51,6 +51,15 @@ h2 {
     color: whitesmoke;
 }
 
+h3 {
+    font-family: "Open Sans Condensed";
+    margin: 0;
+    padding: 15px 0 0;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
 #container_splash{
     padding: 0vw 50px;
     display: flex;
@@ -196,7 +205,320 @@ h1 {
 
 
 
-/* DOKUMENTATIONSSITE */
+/***** DOKUMENTATIONSSITE ******/
+
+
+/* DAILY SCRUM */
+
+
+/* PAIN POINT */
+
+#pain_point {
+    background-color: whitesmoke
+}
+
+
+
+/* PERSONA */
+
+#persona {
+    background-color: darkslategrey;
+}
+
+#persona h1 {
+    color: whitesmoke;
+}
+
+#persona p {
+    font-family: "Open Sans Condensed";
+    color: whitesmoke;
+    text-align: justify;
+    padding: 0 0 2vw;
+}
+
+#persona li {
+    font-family: "Open Sans Condensed";
+    color: whitesmoke;
+    padding: 0 0 2vw 0;
+}
+
+#container_persona {
+    margin: 1vw 10vw 0;
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: space-around;
+}
+
+.container_persona1 {
+    flex-basis: 50vw;
+}
+
+.container_persona2 {
+    flex-basis: 40vw;
+    flex-basis: 80vw;
+}
+
+
+
+/* IDEGENERERING */
+
+#idegenerering {
+    background-color: whitesmoke;
+}
+
+#brainstorming_img {
+    background-image: url(img/brainstorming.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 56vw;
+    width: 85vw;
+    margin: 2vw 8vw 0;
+}
+
+
+#container_skitse {
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: space-around;
+}
+
+.container_skitse_1 {
+    background-image: url(img/skitse.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    flex-basis: 1;
+    height: 60vw;
+    width: 30vw;
+    margin: 2vw 0 0;
+}
+
+.container_skitse_2 {
+    background-image: url(img/skitse.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    flex-basis: 1;
+    height: 60vw;
+    width: 30vw;
+    margin: 2vw 0 0;
+}
+
+.container_skitse_3 {
+    background-image: url(img/skitse.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    flex-basis: 1;
+    height: 60vw;
+    width: 30vw;
+    margin: 2vw 0 0;
+}
+
+
+/* PAPER PROTOTYPE */
+
+
+/* STORYBOARD */
+
+#storyboard {
+    background-color: whitesmoke;
+}
+
+/* TEST */
+
+#test {
+    background-color: darkslategrey;
+}
+
+/* VALG AF IDE */
+
+#valg_af_ide {
+    background-color: whitesmoke;
+}
+
+/* AKTIVITETER & FEATURES */
+
+
+/* STYLETILE */
+
+
+#styletile {
+    background-color: whitesmoke;
+}
+
+#styletile img {
+    height: 50vw;
+    width: 70vw;
+    padding: 2vw 15vw 5vw;
+}
+
+/* VPC */
+
+#vpc {
+    background-color: darkslategrey;
+}
+
+/* IDEATE */
+
+#ideate {
+    background-color: whitesmoke;
+}
+
+/* BMC */
+
+
+/* DESIGN */
+
+#valg_af_design {
+    background-color: whitesmoke;
+}
+
+#design_front{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.front_1 {
+    margin: 2vw 0 0 0;
+    align-content: center;
+    flex-basis: 40vw;
+    background-image: url(img/design/App_forside.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 70vw;
+}
+
+.front_2 {
+    margin: 2vw 0 0 0;
+    align-content: center;
+    flex-basis: 40vw;
+    background-image: url(img/design/App_kea.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 70vw;
+}
+
+#design_moon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.moon_1 {
+    margin: 5vw 0 0 3vw;
+    align-content: center;
+    flex-basis: 15vw;
+    background-image: url(img/design/Moon_menu.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 36vw;
+}
+
+.moon_2 {
+    margin: 5vw 0 0 0;
+    align-content: center;
+    flex-basis: 15vw;
+    background-image: url(img/design/Moon_location.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 36vw;
+}
+
+.moon_3 {
+    margin: 5vw 0 0 0;
+    align-content: center;
+    flex-basis: 15vw;
+    background-image: url(img/design/Moon_events.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 36vw;
+}
+
+.moon_4 {
+    margin: 5vw 0 0 0;
+    align-content: center;
+    flex-basis: 15vw;
+    background-image: url(img/design/Moon_price.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 36vw;
+}
+
+.moon_5 {
+    margin: 5vw 3.5vw 0 0;
+    align-content: center;
+    flex-basis: 15vw;
+    background-image: url(img/design/Moon_offer.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 36vw;
+}
+
+#design_monkey{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.monkey_1 {
+    margin: -5vw 0 0 3vw;
+    align-content: center;
+    flex-basis: 15vw;
+    background-image: url(img/design/Monkey_menu.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 36vw;
+}
+
+.monkey_2 {
+    margin: -5vw 0 0 0;
+    align-content: center;
+    flex-basis: 15vw;
+    background-image: url(img/design/Monket_location.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 36vw;
+}
+
+.monkey_3 {
+    margin: -5vw 0 0 0;
+    align-content: center;
+    flex-basis: 15vw;
+    background-image: url(img/design/Monkey_events.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 36vw;
+}
+
+.monkey_4 {
+    margin: -5vw 0 0 0;
+    align-content: center;
+    flex-basis: 15vw;
+    background-image: url(img/design/Monket_prices.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 36vw;
+}
+
+.monkey_5 {
+    margin: -5vw 3.5vw 0 0;
+    align-content: center;
+    flex-basis: 15vw;
+    background-image: url(img/design/Monkey_events.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 36vw;
+}
+
+
+/* UI KITS */
+
+#ui_kits {
+    background-color: darkslategrey;
+}
+
+
+
+/* GRUPPEINFO */
 
 
 #gruppeinformation {
@@ -227,15 +549,4 @@ h1 {
     font-family: "Open Sans Condensed";
     padding: 15vw 0 0 0;
     text-align: center;
-}
-
-#styletile {
-    background-color: whitesmoke;
-    height: 70vw;
-}
-
-#styletile img {
-    height: 50vw;
-    width: 70vw;
-    padding: 2vw 15vw;
 }
