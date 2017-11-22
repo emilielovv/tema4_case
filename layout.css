@@ -334,6 +334,24 @@ h1 {
     background-color: whitesmoke;
 }
 
+#valg_af_ide p {
+    font-family: "Open Sans Condensed";
+    text-align: justify;
+    padding: 2vw 0;
+    margin: 1vw 10vw 0;
+}
+
+.container_valg_af_ide {
+    background-image: url(img/skitse-100.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 55vw;
+    width: 85vw;
+    margin: 0 8vw;
+
+}
+
+
 /* AKTIVITETER & FEATURES */
 
 
