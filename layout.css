@@ -572,7 +572,7 @@ h1 {
 .flexbox_pers2 {
     background-image: url(img/flotte_mennesker/mikkel.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 
 }
 
