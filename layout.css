@@ -250,15 +250,22 @@ h1 {
 }
 
 .container_persona1 {
-    flex-basis: 50vw;
+    flex-basis: 40vw;
 }
 
 .container_persona2 {
-    flex-basis: 40vw;
     flex-basis: 80vw;
 }
 
+.container_persona3 {
+    flex-basis: 40vw;
 
+    background-image: url(img/flotte_mennesker/kasper.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 50vw;
+    width: 10vw;
+}
 
 /* IDEGENERERING */
 
