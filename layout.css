@@ -399,7 +399,7 @@ h1 {
     margin: 2vw 0 0 0;
     align-content: center;
     flex-basis: 40vw;
-    background-image: url(img/design/App_forside.png);
+    background-image: url();
     background-size: 100%;
     background-repeat: no-repeat;
     height: 70vw;
@@ -409,7 +409,7 @@ h1 {
     margin: 2vw 0 0 0;
     align-content: center;
     flex-basis: 40vw;
-    background-image: url(img/design/App_kea.png);
+    background-image: url();
     background-size: 100%;
     background-repeat: no-repeat;
     height: 70vw;
@@ -425,7 +425,7 @@ h1 {
     margin: 5vw 0 0 3vw;
     align-content: center;
     flex-basis: 15vw;
-    background-image: url(img/design/Moon_menu.png);
+    background-image: url();
     background-size: 100%;
     background-repeat: no-repeat;
     height: 36vw;
@@ -435,7 +435,7 @@ h1 {
     margin: 5vw 0 0 0;
     align-content: center;
     flex-basis: 15vw;
-    background-image: url(img/design/Moon_location.png);
+    background-image: url();
     background-size: 100%;
     background-repeat: no-repeat;
     height: 36vw;
@@ -445,7 +445,7 @@ h1 {
     margin: 5vw 0 0 0;
     align-content: center;
     flex-basis: 15vw;
-    background-image: url(img/design/Moon_events.png);
+    background-image: url();
     background-size: 100%;
     background-repeat: no-repeat;
     height: 36vw;
@@ -455,7 +455,7 @@ h1 {
     margin: 5vw 0 0 0;
     align-content: center;
     flex-basis: 15vw;
-    background-image: url(img/design/Moon_price.png);
+    background-image: url();
     background-size: 100%;
     background-repeat: no-repeat;
     height: 36vw;
@@ -465,7 +465,7 @@ h1 {
     margin: 5vw 3.5vw 0 0;
     align-content: center;
     flex-basis: 15vw;
-    background-image: url(img/design/Moon_offer.png);
+    background-image: url();
     background-size: 100%;
     background-repeat: no-repeat;
     height: 36vw;
@@ -481,7 +481,7 @@ h1 {
     margin: -5vw 0 0 3vw;
     align-content: center;
     flex-basis: 15vw;
-    background-image: url(img/design/Monkey_menu.png);
+    background-image: url();
     background-size: 100%;
     background-repeat: no-repeat;
     height: 36vw;
@@ -491,7 +491,7 @@ h1 {
     margin: -5vw 0 0 0;
     align-content: center;
     flex-basis: 15vw;
-    background-image: url(img/design/Monket_location.png);
+    background-image: url();
     background-size: 100%;
     background-repeat: no-repeat;
     height: 36vw;
@@ -501,7 +501,7 @@ h1 {
     margin: -5vw 0 0 0;
     align-content: center;
     flex-basis: 15vw;
-    background-image: url(img/design/Monkey_events.png);
+    background-image: url();
     background-size: 100%;
     background-repeat: no-repeat;
     height: 36vw;
@@ -511,7 +511,7 @@ h1 {
     margin: -5vw 0 0 0;
     align-content: center;
     flex-basis: 15vw;
-    background-image: url(img/design/Monket_prices.png);
+    background-image: url();
     background-size: 100%;
     background-repeat: no-repeat;
     height: 36vw;
@@ -521,7 +521,7 @@ h1 {
     margin: -5vw 3.5vw 0 0;
     align-content: center;
     flex-basis: 15vw;
-    background-image: url(img/design/Monkey_offer.png);
+    background-image: url();
     background-size: 100%;
     background-repeat: no-repeat;
     height: 36vw;
