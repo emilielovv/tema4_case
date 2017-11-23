@@ -217,6 +217,13 @@ h1 {
     background-color: whitesmoke
 }
 
+#problemstilling p {
+    font-family: "Open Sans Condensed";
+    padding: 0 10vw 5vw 10vw;
+    text-align: justify;
+}
+
+
 
 
 /* PERSONA */
@@ -270,13 +277,31 @@ h1 {
 
 }
 
+
+
 /* IDEGENERERING */
 
 #idegenerering {
     background-color: whitesmoke;
 }
 
+#idegenerering h4 {
+    font-family: "Open Sans Condensed";
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: underline;
+}
+
 #brainstorming_img {
+    background-image: url(img/brainstorming.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 56vw;
+    width: 85vw;
+    margin: 2vw 8vw 0;
+}
+
+#experience_img {
     background-image: url(img/brainstorming.png);
     background-repeat: no-repeat;
     background-size: 100%;
