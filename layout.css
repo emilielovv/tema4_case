@@ -33,7 +33,7 @@ header nav a:hover {
 
 #splash {
     margin: 0;
-    background-image: url(img/test.png);
+    background-image: ;
     background-size: 100%;;
     background-repeat: no-repeat;
     background-color: white;
@@ -211,9 +211,9 @@ h1 {
 /* DAILY SCRUM */
 
 
-/* PAIN POINT */
+/* PROBLEMSTILLING */
 
-#pain_point {
+#problemstilling {
     background-color: whitesmoke
 }
 
@@ -323,8 +323,51 @@ h1 {
 }
 
 
+/* SKITSER */
+
+
+
 /* PAPER PROTOTYPE */
 
+#paper_prototype {
+    background-color: whitesmoke;
+}
+
+
+
+/* PAIN POINT */
+
+#pain_point {
+    background-color: darkslategrey;
+}
+
+#painpoint_container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 2vw 0 5vw;
+}
+
+.painpoint_content {
+    flex-basis: 1;
+}
+
+#pain_point h1 {
+    color: whitesmoke;
+}
+
+#pain_point p {
+    color: whitesmoke;
+    font-family: "Open Sans Condensed";
+    font-weight: bolder;
+    padding: 0 5vw;
+}
+
+#pain_point li {
+    color: whitesmoke;
+    font-family: "Open Sans Condensed";
+    margin: 0 5vw;
+}
 
 /* STORYBOARD */
 
@@ -332,11 +375,39 @@ h1 {
     background-color: whitesmoke;
 }
 
+#storyboard_container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 2vw 0 5vw;
+}
+.storyboard_content_1 {
+    flex-basis: 1;
+    background-image: url(img/storyboard/storyboard_fronter.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 20vw;
+    width: 30vw;
+}
+.storyboard_content_2 {
+    flex-basis: 1;
+    background-image: url(img/storyboard/storyboard_fronter.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 20vw;
+    width: 30vw;
+}
+.storyboard_content_3 {
+    flex-basis: 1;
+    background-image: url(img/storyboard/storyboard_fronter.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 20vw;
+    width: 30vw;
+}
+
 /* TEST */
 
-#test {
-    background-color: darkslategrey;
-}
 
 /* VALG AF IDE */
 
@@ -364,6 +435,27 @@ h1 {
 
 /* AKTIVITETER & FEATURES */
 
+#aktiviteter_features {
+    background-color: darkslategrey;
+}
+
+#aktiviteter_features h1 {
+    color: whitesmoke;
+}
+
+#aktiviteter_features p {
+    color: whitesmoke;
+    font-family: "Open Sans Condensed";
+    font-weight: bolder;
+    padding: 0 10vw;
+}
+
+#aktiviteter_features li {
+    color: whitesmoke;
+    font-family: "Open Sans Condensed";
+    margin: 0 10vw;
+}
+
 
 /* STYLETILE */
 
@@ -380,9 +472,7 @@ h1 {
 
 /* VPC */
 
-#vpc {
-    background-color: darkslategrey;
-}
+
 
 /* IDEATE */
 
@@ -392,6 +482,9 @@ h1 {
 
 /* BMC */
 
+#bmc {
+    background-color: darkslategrey;
+}
 
 /* DESIGN */
 
@@ -539,10 +632,6 @@ h1 {
 
 
 /* UI KITS */
-
-#ui_kits {
-    background-color: darkslategrey;
-}
 
 
 
