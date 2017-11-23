@@ -562,6 +562,33 @@ h1 {
     border-radius: 50%;
 }
 
+
+.flexbox_pers1 {
+    background-image: url(img/flotte_mennesker/ida.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.flexbox_pers2 {
+    background-image: url(img/flotte_mennesker/mikkel.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.flexbox_pers3 {
+    background-image: url(img/flotte_mennesker/nikolaj.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.flexbox_pers4 {
+    background-image: url(img/flotte_mennesker/emilie.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
 #flexbox_gruppe p {
     color: black;
     font-family: "Open Sans Condensed";
