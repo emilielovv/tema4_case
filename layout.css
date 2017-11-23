@@ -246,7 +246,7 @@ h1 {
     margin: 1vw 10vw 0;
     display: flex;
     flex-wrap:nowrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .container_persona1 {
@@ -265,6 +265,9 @@ h1 {
     background-repeat: no-repeat;
     height: 50vw;
     width: 10vw;
+
+    margin: 10vw;
+
 }
 
 /* IDEGENERERING */
