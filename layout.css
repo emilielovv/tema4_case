@@ -265,15 +265,15 @@ h1 {
 }
 
 .container_persona3 {
-    flex-basis: 40vw;
+    flex-basis: 700px;
 
     background-image: url(img/flotte_mennesker/kasper.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     height: 50vw;
-    width: 10vw;
+    width: 50vw;
 
-    margin: 10vw;
+    margin: 20px 0 0 5vw;
 
 }
 
@@ -285,12 +285,6 @@ h1 {
     background-color: whitesmoke;
 }
 
-#idegenerering h4 {
-    font-family: "Open Sans Condensed";
-    font-weight: bolder;
-    text-align: center;
-    text-decoration: underline;
-}
 
 #brainstorming_img {
     background-image: url(img/brainstorming.png);
@@ -302,7 +296,7 @@ h1 {
 }
 
 #experience_img {
-    background-image: url(img/brainstorming.png);
+    background-image: url(img/experience.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     height: 56vw;
@@ -311,45 +305,63 @@ h1 {
 }
 
 
+
+
+/* SKITSER */
+
 #container_skitse {
     display: flex;
     flex-wrap:nowrap;
     justify-content: space-around;
+    margin: 0;
+    padding: 0;
 }
 
 .container_skitse_1 {
-    background-image: url(img/skitse.png);
+    background-image: url(img/skitse_moon.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     flex-basis: 1;
-    height: 60vw;
+    height: 30vw;
     width: 30vw;
     margin: 2vw 0 0;
 }
 
 .container_skitse_2 {
-    background-image: url(img/skitse.png);
+    background-image: url(img/skitse_kea.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     flex-basis: 1;
-    height: 60vw;
+    height: 30vw;
     width: 30vw;
     margin: 2vw 0 0;
 }
 
 .container_skitse_3 {
-    background-image: url(img/skitse.png);
+    background-image: url(img/skitse_fronter.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     flex-basis: 1;
-    height: 60vw;
+    height: 30vw;
     width: 30vw;
     margin: 2vw 0 0;
 }
 
+#skitser {
+    font-family: "Open Sans Condensed";
+    text-align: center;
+    margin: 2vw 0 0 0;
+    text-decoration: underline;
+}
 
-/* SKITSER */
-
+#design_charette {
+    background-image: url(img/charette.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 75vw;
+    width: 96vw;
+    margin: 0 2vw;
+}
 
 
 /* PAPER PROTOTYPE */
@@ -431,7 +443,57 @@ h1 {
     width: 30vw;
 }
 
+
+
+
+
 /* TEST */
+
+#container_test {
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+.container_test_1 {
+
+    background-size: 100%;
+    flex-basis: 1;
+    height: 65vw;
+    width: 30vw;
+    margin: 2vw 0 0;
+}
+
+.container_test_2 {
+    background-image: url(img/test/test_kea-100.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    flex-basis: 1;
+    height: 48vw;
+    width: 30vw;
+    margin: 2vw 0 0;
+}
+
+.container_test_3 {
+    background-image: url(img/test/test_fronter-100.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    flex-basis: 1;
+    height: 48vw;
+    width: 30vw;
+    margin: 2vw 0 0;
+}
+
+#test p {
+    font-family: "Open Sans Condensed";
+    text-align: center;
+    margin: 2vw 0 0 0;
+    text-decoration: underline;
+}
+
+
 
 
 /* VALG AF IDE */
